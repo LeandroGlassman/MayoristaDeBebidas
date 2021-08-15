@@ -1,0 +1,123 @@
+[
+ {
+     "id": 1,
+     "nombre": "Coca Cola Regular",
+     "precio": 90,
+     "capacidad": 1.5,
+     "imagen": "./fotos/id1.jpeg"
+ },
+
+ {
+    "id": 2,
+    "nombre": "Coca Cola Light",
+    "precio": 85,
+    "capacidad": 1.5,
+    "imagen": "./fotos/id2.jpeg"
+},
+
+{
+    "id": 3,
+    "nombre": "Coca Cola Zero",
+    "precio": 85,
+    "capacidad": 1.5,
+    "imagen": "./fotos/id3.jpeg"
+},
+
+{
+    "id": 4,
+    "nombre": "Fanta Regular",
+    "precio": 90,
+    "capacidad": 1.5,
+    "imagen": "./fotos/id4.jpeg"
+},
+
+{
+    "id": 5,
+    "nombre": "Fanta Zero",
+    "precio": 85,
+    "capacidad": 1.5,
+    "imagen": "./fotos/id5.jpeg"
+},
+
+{
+    "id": 6,
+    "nombre": "Sprite Regular",
+    "precio": 90,
+    "capacidad": 1.5,
+    "imagen": "./fotos/id6.jpeg"
+},
+
+{
+    "id": 7,
+    "nombre": "Sprite Zero",
+    "precio": 80,
+    "capacidad": 1.5,
+    "imagen": "./fotos/id7.png"
+},
+
+{
+    "id": 8,
+    "nombre": "Agua Mineral Kim",
+    "precio": 70,
+    "capacidad": 1.5,
+    "imagen": "./fotos/id8.jpeg"
+},
+
+{
+    "id": 9,
+    "nombre": "Cunnington Pomelo",
+    "precio": 70,
+    "capacidad": 1.5,
+    "imagen": "./fotos/id9.jpeg"
+},
+
+{
+    "id": 10,
+    "nombre": "Cunnington Tonica",
+    "precio": 70,
+    "capacidad": 1.5,
+    "imagen": "./fotos/id10.png"
+},
+
+{
+    "id": 11,
+    "nombre": "Pepsi Regular",
+    "precio": 90,
+    "capacidad": 1.5,
+    "imagen": "./fotos/id11.png"
+},
+
+{
+    "id": 12,
+    "nombre": "Pepsi Light",
+    "precio": 90,
+    "capacidad": 1.5,
+    "imagen": "./fotos/id12.jpeg"
+},
+
+{
+    "id": 13,
+    "nombre": "Pepsi Black",
+    "precio": 90,
+    "capacidad": 1.5,
+    "imagen": "./fotos/id13.png"
+},
+
+{
+    "id": 14,
+    "nombre": "Mirinda Regular",
+    "precio": 90,
+    "capacidad": 1.5,
+    "imagen": "./fotos/id14.jpeg"
+},
+
+{
+    "id": 15,
+    "nombre": "Paso de los Toros Pomelo",
+    "precio": 90,
+    "capacidad": 1.5,
+    "imagen": "./fotos/id15.png"
+}
+
+
+]
