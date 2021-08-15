@@ -38,6 +38,31 @@ body {
     margin: 10px;
 }
 
+#informacion {
+    display: flex;
+    flex-direction: row;
+}
+
+.informacion-1 {
+    width: 50%;
+    background-color: #e63946;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f1faee;
+}
+
+.informacion-2{
+    width: 50%;
+    background-color: #a8dadc;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 
 #formulario--de--contacto {
@@ -78,7 +103,7 @@ body {
 }
 
 .footer {
-    background-color: #e63946;
+    background-color: #1d3557;
     width: 100%;
     height: 80px;
     color: #f1faee;
@@ -149,6 +174,25 @@ body {
     .card {
         margin: 10px 0px 10px 0px;
     }
+
+    .slider--centrado {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .slider--centrado p {
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #informacion {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 700px) and (min-width:500px) {
@@ -186,7 +230,29 @@ body {
     #contenedor--de--productos {
         flex-direction: row;
     }
+
+    .slider--centrado {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .slider--centrado p {
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #informacion {
+        display: flex;
+        flex-direction: column;
+    }
+    .informacion-1, .informacion-2 {
+        width: 100%;
+    }
 }
+
 
 @media (max-width: 1400px) and (min-width:700px) {
     body {
@@ -273,6 +339,20 @@ body {
         flex-direction: row;
     }
 
+    .slider--centrado {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .slider--centrado p {
+        margin-left: 5px;
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media (max-width: 4000px) and (min-width:1400px) {
@@ -318,5 +398,20 @@ body {
     .header--titulo {
         border-right: #f1faee solid 5px;
         margin-right: 23px;
+    }
+
+    .slider--centrado {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .slider--centrado p {
+        margin-left: 5px;
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
