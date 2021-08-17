@@ -4,6 +4,7 @@ body {
     font-weight: 200;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 .header {
@@ -19,12 +20,7 @@ body {
     margin-top: 10px;
 }
 
-.active {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
+
 
 #contenedor--de--productos {
     display: flex;
@@ -64,6 +60,20 @@ body {
     align-items: center;
 }
 
+#info-2, #info-1 {
+    width: 200px;
+    height: 70px;
+    background: none;
+    border: none;
+    border: #f1faee 2px solid;
+    color: #f1faee;
+    border-radius: 4px;
+}
+
+#info-2:hover, #info-1:hover {
+    background-color: #f1faee;
+    color: gray;
+}
 
 #formulario--de--contacto {
     height: 300px;
@@ -135,6 +145,56 @@ body {
     text-align: center;
 }
 
+
+.informacion-1-elementos {
+    display: none;
+}
+.informacion-1-elementos-img {
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+#envios {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.informacion-2-elementos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#zona-sur, #zona-caba, #zona-oeste, #zona-norte {
+    width: 170px;
+    height: 30px;
+    background: none;
+    border: none;
+    border: #f1faee 2px solid;
+    color: #f1faee;
+    border-radius: 4px;
+    margin: 5px;
+}
+
+#zona-sur:hover, #zona-caba:hover, #zona-oeste:hover, #zona-norte:hover {
+    background-color: #f1faee;
+    color: gray;
+}
+
+#zona-sur-mensaje, #zona-caba-mensaje, #zona-oeste-mensaje, #zona-norte-mensaje {
+    display: none;
+    margin-left: 5px;
+}
+
+#envios-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
 @media (max-width: 500px) {
     body {
         width: 100%;
@@ -193,6 +253,15 @@ body {
         display: flex;
         flex-direction: column;
     }
+
+    #informacion {
+        display: flex;
+        flex-direction: column;
+    }
+    .informacion-1, .informacion-2 {
+        width: 100%;
+    }
+
 }
 
 @media (max-width: 700px) and (min-width:500px) {

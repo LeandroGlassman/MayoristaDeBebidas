@@ -1,7 +1,6 @@
 // Traer Productos con JSON
 // Crear tarjetas de producto
-
-// capturando datos de JSON
+// carrito
 
 const cards = document.getElementById(`cards`)
 const items = document.getElementById(`items`)
@@ -150,6 +149,38 @@ const btnAccion = e => {
     e.stopPropagation()
 }
 
+// animaciones en informacion
+
+$("#info-1").click(function () {
+   $(".informacion-1-elementos").slideToggle()
+})
+
+
+$("#info-2").click(function () {
+    $(".informacion-2-elementos").slideToggle()
+ })
+
+ // envios
+
+ $("#zona-sur").click(function(){
+     $("#zona-sur-mensaje").slideToggle()
+ })
+ 
+
+ $("#zona-norte").click(function(){
+    $("#zona-norte-mensaje").slideToggle()
+})
+
+
+
+$("#zona-oeste").click(function(){
+    $("#zona-oeste-mensaje").slideToggle()
+})
+
+
+$("#zona-caba").click(function(){
+    $("#zona-caba-mensaje").slideToggle()
+})
 // mensaje de confirmacion del form
 // form sin recargar la pagina
 
