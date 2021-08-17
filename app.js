@@ -1,3 +1,8 @@
+// loader
+
+
+
+
 // Traer Productos con JSON
 // Crear tarjetas de producto
 // carrito
@@ -80,7 +85,6 @@ const setCarrito = objeto => {
 
 
 const crearCarrito = () => {
-    console.log(carrito);
     items.innerHTML = ``
     Object.values(carrito).forEach(producto => {
         templateCarrito.querySelector(`th`).textContent = producto.id
@@ -121,6 +125,13 @@ const crearFooter = () => {
 
     const btnVaciar = document.getElementById(`vaciar-carrito`)
     btnVaciar.addEventListener(`click`, () => {
+        carrito = {}
+        crearCarrito()
+    })
+
+    const btnComprar = document.getElementById(`comprar-carrito`)
+    btnComprar.addEventListener(`click`, () => {
+        alert("El total de su compra es " + nPrecio + " Muchas Gracias por su compra!");
         carrito = {}
         crearCarrito()
     })
