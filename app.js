@@ -1,9 +1,3 @@
-// pantalla de carga
-
-
-
-
-
 // Traer Productos con JSON
 // Crear tarjetas de producto
 // carrito
@@ -38,7 +32,6 @@ const fetchData = async () => {
     try {
         const res = await fetch (`productos.json`)
         const data = await res.json()
-       // console.log(data);
         crearCards(data)
     } catch (error) {
         console.log(error);
@@ -59,8 +52,6 @@ const crearCards = data => {
 }
 
 const addCarrito = e => {
-   // console.log(e.target);
-   // console.log(e.target.classList.contains(`btn-dark`));
     if(e.target.classList.contains(`btn-dark`)) {
         setCarrito(e.target.parentElement)
     }
@@ -68,7 +59,6 @@ const addCarrito = e => {
 }
 
 const setCarrito = objeto => {
-   // console.log(objeto);
     const producto = {
         id: objeto.querySelector(`.btn-dark`).dataset.id,
         nombre: objeto.querySelector(`h5`).textContent,
@@ -139,10 +129,7 @@ const crearFooter = () => {
 }
 
 const btnAccion = e => {
-    // console.log(e.target);
-    // boton de aumentar
     if(e.target.classList.contains(`btn-info`)) {
-        //console.log(carrito[e.target.dataset.id]);
         const producto = carrito[e.target.dataset.id]
         producto.cantidad++
         carrito[e.target.dataset.id] = {...producto}
