@@ -1,4 +1,5 @@
-// loader
+// pantalla de carga
+
 
 
 
@@ -131,7 +132,7 @@ const crearFooter = () => {
 
     const btnComprar = document.getElementById(`comprar-carrito`)
     btnComprar.addEventListener(`click`, () => {
-        alert("El total de su compra es " + nPrecio + " Muchas Gracias por su compra!");
+        swal("Gracias por su compra!", "el total es $" + nPrecio, "success");
         carrito = {}
         crearCarrito()
     })

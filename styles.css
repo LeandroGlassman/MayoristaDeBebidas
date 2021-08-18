@@ -7,8 +7,6 @@ body {
     overflow-x: hidden;
 }
 
-
-
 .header {
     background-color: #1d3557;
     width: 100%;
@@ -177,10 +175,7 @@ body {
     align-items: center;
 }
 .informacion-2-elementos {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+   display: none;
 }
 #zona-sur, #zona-caba, #zona-oeste, #zona-norte {
     width: 170px;
